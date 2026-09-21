@@ -2,6 +2,8 @@
 
 > **A luxury coffee film campaign combined with an interactive 3D product experience.**
 > *Concept, design, and development by Kinetic Web.*
+>
+> 🌐 **Live Demo**: [https://caf-opal.vercel.app](https://caf-opal.vercel.app)
 
 ---
 
