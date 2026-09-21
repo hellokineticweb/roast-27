@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f1712"/>
+      <stop offset="50%" stop-color="#120e0b"/>
+      <stop offset="100%" stop-color="#080605"/>
+    </linearGradient>
+    <linearGradient id="copperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3c77c"/>
+      <stop offset="50%" stop-color="#e09f67"/>
+      <stop offset="100%" stop-color="#c85a32"/>
+    </linearGradient>
+    <linearGradient id="flameGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#c85a32"/>
+      <stop offset="60%" stop-color="#e09f67"/>
+      <stop offset="100%" stop-color="#f3c77c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Dark Badge -->
+  <circle cx="32" cy="32" r="30" fill="url(#bgGrad)" stroke="url(#copperGrad)" stroke-width="2.5"/>
+
+  <!-- Inner Subtle Ring -->
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#e09f67" stroke-width="0.75" stroke-opacity="0.4" stroke-dasharray="2 2"/>
+
+  <!-- Coffee Bean & Roast Emblem Center -->
+  <g transform="translate(32, 23)">
+    <!-- Stylized Roasted Bean Shape -->
+    <path d="M 0 -11 C 7 -11, 11 -6, 11 0 C 11 6, 7 11, 0 11 C -7 11, -11 6, -11 0 C -11 -6, -7 -11, 0 -11 Z" fill="#251b14" stroke="url(#copperGrad)" stroke-width="1.2"/>
+    <!-- Central Bean S-Crease Curve -->
+    <path d="M 0 -9 C 3 -4, -3 4, 0 9" fill="none" stroke="url(#flameGrad)" stroke-width="1.6" stroke-linecap="round"/>
+  </g>
+
+  <!-- "27" Signature Numerals -->
+  <text x="32" y="49" font-family="'Cinzel', 'Playfair Display', serif" font-weight="900" font-size="14" fill="url(#copperGrad)" text-anchor="middle" letter-spacing="1">27</text>
+</svg>
